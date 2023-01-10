@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+
+#container {
+    width: 75%;
+    border: 4px solid black;
+    margin:auto;
+    padding: 5px;
+}
+
+
+
+body {
+    padding-top: 8px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+ul {
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#bar {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+.imagemiddle {
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius:50%;
+    margin-bottom: auto;
+    padding: auto;
+}
+
+ul {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;;
+}
+
+ a .other {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0%;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #story {
+    font-size: 25px;
+ } 
+
+
+
+ .yt {
+    text-align:center;
+ }
+
+
+ h5{
+    text-align: center;
+    font-style: italic;
+ }
+   
+ 
+a:hover {
+    border-bottom: 3px solid red;
+    
+  }
+  
+a.active {
+    border-bottom: 3px solid red;
+  }
+
+button {
+    font-size: 25px;
+    border-color: none;
+    background-color: transparent;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    border-radius: 50%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#bt1 {
+    padding: auto;
+    border-radius: 2px;
+}
+
+.like {
+    text-align: center;
+    position: absolute;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+    margin: auto;
+    padding: 2px;
+    float: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    align-items: center;
+ 
+}
+
+.like:hover {
+    transition: 0.5s;
+    background-color: red;
+    color: azure;
+}
+
+.like:hover:after {
+    transition: 0.5s;
+    background: blue;
+    color: red;
+}
+
+
+  
